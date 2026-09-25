@@ -1,0 +1,17 @@
+# Count Odd and Even Numbers from an Array
+
+num <- c(10, 15, 22, 31, 40, 55, 62, 73)
+
+even <- 0
+odd <- 0
+
+for (i in num) {
+  if (i %% 2 == 0)
+    even <- even + 1
+  else
+    odd <- odd + 1
+}
+
+cat("Array:", num, "\n")
+cat("Number of Even Numbers:", even, "\n")
+cat("Number of Odd Numbers:", odd)
