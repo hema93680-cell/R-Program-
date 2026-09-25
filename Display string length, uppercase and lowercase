@@ -1,0 +1,18 @@
+# Program to find length, uppercase and lowercase
+# of a given string
+
+str <- readline("Enter a string: ")
+
+cat("\nOriginal String:", str)
+
+len <- nchar(str)
+upper <- toupper(str)
+lower <- tolower(str)
+
+cat("\nLength of the String:", len)
+
+cat("\nUppercase String:", upper)
+
+cat("\nLowercase String:", lower)
+
+cat("\n\nString analysis completed successfully.")
