@@ -1,0 +1,14 @@
+# Function to print square of numbers
+square_numbers <- function(n) {
+  
+  cat("Number\tSquare\n")
+  cat("----------------\n")
+  
+  for(i in 1:n) {
+    square <- i * i
+    cat(i, "\t", square, "\n")
+  }
+}
+
+# Calling the function
+square_numbers(10)
