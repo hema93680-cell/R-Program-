@@ -1,0 +1,14 @@
+# Statistical analysis of attendance percentage
+
+attendance <- c(75, 80, 85, 90, 78, 88, 92, 82, 76, 95)
+
+cat("Attendance Percentage Data:\n")
+print(attendance)
+
+mean_attendance <- mean(attendance)
+sd_attendance <- sd(attendance)
+
+cat("\nMean Attendance:", mean_attendance, "\n")
+cat("Standard Deviation:", sd_attendance, "\n")
+
+cat("\nStatistical analysis completed successfully.")
