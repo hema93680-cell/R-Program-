@@ -1,0 +1,18 @@
+# Factorial of a given number using Recursive Function
+
+factorial <- function(n) {
+  if (n == 0) {
+    return(1)
+  } else {
+    return(n * factorial(n - 1))
+  }
+}
+
+# Get input from user
+n <- as.integer(readline("Enter a number: "))
+
+# Calculate factorial
+result <- factorial(n)
+
+# Display result
+cat("Factorial of", n, "is", result)
