@@ -1,0 +1,36 @@
+# String Manipulation Functions in R
+
+x <- "Hello World"
+
+cat("Original String:", x, "\n\n")
+
+# 1. nchar() - Count characters
+cat("Number of characters:", nchar(x), "\n")
+
+# 2. toupper() - Convert to uppercase
+cat("Uppercase:", toupper(x), "\n")
+
+# 3. tolower() - Convert to lowercase
+cat("Lowercase:", tolower(x), "\n")
+
+# 4. paste() - Join strings
+y <- paste("Good", "Morning")
+cat("Paste:", y, "\n")
+
+# 5. substr() - Extract characters
+z <- substr(x, 1, 5)
+cat("Substring:", z, "\n")
+
+# 6. strsplit() - Split string
+a <- strsplit("Apple-Banana-Mango", "-")
+cat("Split String:\n")
+print(a)
+
+# 7. chartr() - Replace characters
+b <- chartr("H", "h", x)
+cat("Character replaced:", b, "\n")
+
+# 8. grep() - Search string
+names <- c("Apple", "Mango", "Orange")
+c <- grep("Apple", names)
+cat("Apple found at position:", c, "\n")
