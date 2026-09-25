@@ -1,0 +1,22 @@
+# Program to display even numbers up to N
+# using repeat loop
+
+n <- 10
+i <- 1
+
+cat("Given value of N:", n, "\n")
+cat("Even numbers from 1 to", n, "are:\n")
+
+repeat {
+  if (i > n) {
+    break
+  }
+  
+  if (i %% 2 == 0) {
+    cat(i, " ")
+  }
+  
+  i <- i + 1
+}
+
+cat("\nProgram completed successfully.")
