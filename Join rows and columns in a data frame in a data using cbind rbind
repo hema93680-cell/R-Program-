@@ -1,0 +1,27 @@
+# Create first data frame
+df1 <- data.frame(
+  Name = c("Arun", "Bala", "Cathy"),
+  Age = c(20, 21, 19)
+)
+
+# Create another column
+Marks <- c(85, 90, 88)
+
+# Add column using cbind()
+df2 <- cbind(df1, Marks)
+
+cat("After adding a column using cbind():\n")
+print(df2)
+
+# Create another row
+new_row <- data.frame(
+  Name = "David",
+  Age = 22,
+  Marks = 92
+)
+
+# Add row using rbind()
+df3 <- rbind(df2, new_row)
+
+cat("\nAfter adding a row using rbind():\n")
+print(df3)
