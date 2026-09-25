@@ -1,0 +1,18 @@
+# Different Data Structures in R
+
+# Vector
+marks <- c(80, 75, 90, 85)
+print("Vector:")
+print(marks)
+
+# List
+student <- list(Name="Dhanalakshmy", Age=19, Marks=85)
+print("List:")
+print(student)
+
+# Data Frame
+data <- data.frame(Name=c("Anu","Bala","Ravi"),
+                   Age=c(19,20,19),
+                   Marks=c(85,78,90))
+print("Data Frame:")
+print(data)
