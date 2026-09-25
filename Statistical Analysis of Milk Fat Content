@@ -1,0 +1,16 @@
+# Statistical analysis of milk fat content
+
+fat <- c(3.5, 3.8, 4.0, 3.6, 4.2, 3.9, 3.7)
+
+cat("Milk Fat Content Data:\n")
+print(fat)
+
+mean_fat <- mean(fat)
+variance_fat <- var(fat)
+range_fat <- range(fat)
+
+cat("\nMean Fat Content:", mean_fat, "\n")
+cat("Variance:", variance_fat, "\n")
+cat("Range:", range_fat[1], "to", range_fat[2], "\n")
+
+cat("\nStatistical analysis completed successfully.")
