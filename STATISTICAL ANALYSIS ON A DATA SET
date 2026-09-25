@@ -1,0 +1,50 @@
+# Create a data set
+marks <- c(65, 70, 75, 80, 85, 90, 72, 68, 88, 95)
+
+# Display the data set
+print("Data Set:")
+print(marks)
+
+# Mean
+mean_marks <- mean(marks)
+print("Mean:")
+print(mean_marks)
+
+# Median
+median_marks <- median(marks)
+print("Median:")
+print(median_marks)
+
+# Mode function
+getmode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+mode_marks <- getmode(marks)
+print("Mode:")
+print(mode_marks)
+
+# Minimum
+print("Minimum:")
+print(min(marks))
+
+# Maximum
+print("Maximum:")
+print(max(marks))
+
+# Range
+print("Range:")
+print(range(marks))
+
+# Variance
+print("Variance:")
+print(var(marks))
+
+# Standard Deviation
+print("Standard Deviation:")
+print(sd(marks))
+
+# Summary of the data set
+print("Summary:")
+print(summary(marks))
